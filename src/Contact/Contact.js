@@ -7,9 +7,12 @@ export default function Contact() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className="text-4xl tracking-tight sm:text-6xl uppercase">
-              CONTACT US
+              Get in touch.
             </h1>
-            <p className="mt-6 text-lg leading-8 uppercase">Get in touch.</p>
+            <p className="mt-6 text-lg leading-8 uppercase"></p>
+            <p className="text-xs">
+              Rua da Boavista 10, Lisbon, Portugal 1200-067
+            </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
