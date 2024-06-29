@@ -7,9 +7,10 @@ export default function DrinkCarousel() {
       <TECarousel
         crossfade
         ride="carousel"
+        showControls
         prevBtnIcon={
           <>
-            <span className="inline-block text-white h-8 w-8 [&>svg]:h-10">
+            <span className="inline-block text-white h-8 w-8 [&>svg]:h-lvh flex content-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -31,7 +32,7 @@ export default function DrinkCarousel() {
         }
         nextBtnIcon={
           <>
-            <span className="inline-block text-white h-8 w-8 [&>svg]:h-10">
+            <span className="inline-block text-white h-8 w-8 [&>svg]:h-lvh flex content-center ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
