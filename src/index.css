@@ -8,15 +8,17 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../public/fonts/Kiona-Regular.woff2) format("woff2");
+    src: url(../public/fonts/Kiona-Regular.woff2) format("woff2"),
+      url(../public/fonts/Kiona-Regular.woff) format("woff"),
+      url(../public/fonts/Kiona-Regular.ttf) format("truetype");
   }
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, "Kiona-Regular", BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: "Kiona-Regular", BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
