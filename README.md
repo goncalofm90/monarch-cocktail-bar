@@ -1,5 +1,7 @@
 # The Monarch Cocktail Bar Landing Page
 
+https://the-monarch-cocktail-bar.vercel.app/
+
 This is a freelance project. The client is The Monarch Cocktail bar, one of the main cocktail bars located in Lisbon.
 
 The project was made with [Create React App](https://github.com/facebook/create-react-app) and it utilizes Tailwind CSS.
